@@ -1,0 +1,18 @@
+# Orion Platform CI/CD Pipeline
+# NovaTech Solutions
+pipeline:
+name: orion-build
+stages:
+- build
+- test
+- deploy
+build:
+script: echo 'Building Orion Platform...'
+environment: staging
+test:
+script: echo 'Running test suite...'
+coverage: true
+deploy:
+script: echo 'Deploying to staging...'
+only: [develop, main]
+
