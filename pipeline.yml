@@ -15,4 +15,3 @@ coverage: true
 deploy:
 script: echo 'Deploying to staging...'
 only: [develop, main]
-
