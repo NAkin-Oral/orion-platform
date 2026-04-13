@@ -1,0 +1,18 @@
+# Orion Platform Frontend Configuration
+
+app:
+  name: Orion Platform
+  version: 1.0.0
+  theme: dark
+  language: en
+
+layout:
+  sidebar: true
+  topbar: true
+  footer: false
+
+features:
+  dashboard: enabled
+  analytics: enabled
+  notifications: enabled
+  dark_mode_toggle: true
